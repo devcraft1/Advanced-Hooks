@@ -34,5 +34,5 @@ function Lesson3() {
 
 
 export default Lesson3;
-// imported npm install react-icons
-// components must be represented by capital letter.
+// installed react-icons
+// components must be represented with capital letter.
