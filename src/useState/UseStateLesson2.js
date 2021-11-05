@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Lesson2() {
+function UseStateLesson2() {
     const [checked, setChecked] = useState(false)
     return (
         <div>
@@ -12,4 +12,4 @@ function Lesson2() {
     );
 }
 
-export default Lesson2;
+export default UseStateLesson2;

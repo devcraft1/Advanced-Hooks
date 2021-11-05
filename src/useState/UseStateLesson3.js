@@ -22,7 +22,7 @@ function StarRating({ totalStars = 5 }) {
     )
 }
 
-function Lesson3() {
+function UseStateLesson3() {
     return (
         <div>
             <h3>Lesson 3</h3>
@@ -33,6 +33,6 @@ function Lesson3() {
 }
 
 
-export default Lesson3;
+export default UseStateLesson3;
 // installed react-icons
 // components must be represented with capital letter.
