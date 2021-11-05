@@ -1,6 +1,7 @@
 import React from 'react'
 import UseState from './useState/UseState'
 import UseEffect from './useEffect/UseEffect';
+import UseReducer from './useReducer/UseReducer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h1>Hooks lesson</h1>
       <UseState />
       <UseEffect />
+      <UseReducer />
     </div>
   );
 }
