@@ -2,6 +2,7 @@ import React from 'react'
 import UseStateLesson1 from './UseStateLesson1'
 import UseStateLesson2 from './UseStateLesson2'
 import UseStateLesson3 from './UseStateLesson3'
+import UseStateLesson4 from './UseStateLesson4'
 
 function UseState() {
     return (
@@ -10,6 +11,7 @@ function UseState() {
             <UseStateLesson1 />
             <UseStateLesson2 />
             <UseStateLesson3 />
+            <UseStateLesson4 />
         </div>
     );
 }
