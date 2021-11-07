@@ -11,7 +11,7 @@ function App() {
       {/* <UseState />
       <UseEffect />
       <UseReducer /> */}
-      <UseFetch />
+      <UseFetch login='devcraft1' />
     </div>
   );
 }

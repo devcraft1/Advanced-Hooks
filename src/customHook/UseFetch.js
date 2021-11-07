@@ -9,7 +9,10 @@ function UseFetch({ login }) {
     )
     return (
         <div>
-            <pre>{JSON.stringify(data, null, 2)}</pre>
+            {/* checkout fetched data */}
+            {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+            <img src={data.avatar_url} alt={data.login} />
+            <h3>{data.name}</h3>
         </div>
     )
 
