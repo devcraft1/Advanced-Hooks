@@ -1,16 +1,17 @@
 import React from 'react'
-import UseState from './useState/UseState'
-import UseEffect from './useEffect/UseEffect';
-import UseReducer from './useReducer/UseReducer';
-// import CustomHook from './customHook/UseFetch'
+// import UseState from './useState/UseState'
+// import UseEffect from './useEffect/UseEffect';
+// import UseReducer from './useReducer/UseReducer';
+import UseFetch from './customHook/UseFetch';
 
 function App() {
   return (
     <div>
       <h1>Hooks lesson</h1>
-      <UseState />
+      {/* <UseState />
       <UseEffect />
-      <UseReducer />
+      <UseReducer /> */}
+      <UseFetch />
     </div>
   );
 }

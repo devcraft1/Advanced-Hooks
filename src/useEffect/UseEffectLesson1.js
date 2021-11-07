@@ -11,6 +11,7 @@ function UseEffectLesson1() {
     }, [])
     return (
         <div>
+            <h3>Lesson 1</h3>
             <ul>
                 {data.map((user) =>
                     <li key={user.id}>{user.login}</li>
