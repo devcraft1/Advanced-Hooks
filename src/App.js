@@ -4,6 +4,7 @@ import UseEffect from './useEffect/UseEffect';
 import UseReducer from './useReducer/UseReducer';
 import UseFetch from './customHook/UseFetch';
 
+
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <UseEffect />
       <UseReducer />
       <UseFetch login='devcraft1' />
+
     </div>
   );
 }
