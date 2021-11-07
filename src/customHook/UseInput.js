@@ -1,17 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Input } from './Input';
 
 
-const UseInput = (initialValue) => {
-    const [value, setValue] = useState(initialValue);
+function UseInput() {
+    const { } = Input()
 
-    return [
-        {
-            value,
-            onchange: (e) => setValue(e.target.value)
-        },
-        () => setValue(initialValue)
-    ]
+    return (
+        <div></div>)
 
 }
-
-
+export default UseInput
