@@ -8,7 +8,10 @@ function UseFetch({ login }) {
         <pre>{JSON.stringify(error, null, 2)}</pre>
     )
     return (
+
         <div>
+            <h1>Use custom Hook</h1>
+            <h3>Lesson 1</h3>
             {/* checkout fetched data */}
             {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
             <img src={data.avatar_url} alt={data.login} />
