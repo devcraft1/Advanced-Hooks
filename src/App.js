@@ -2,7 +2,7 @@ import React from 'react'
 import UseState from './useState/UseState'
 import UseEffect from './useEffect/UseEffect';
 import UseReducer from './useReducer/UseReducer';
-import CustomHook from './customHook/UseFetch'
+// import CustomHook from './customHook/UseFetch'
 
 function App() {
   return (
@@ -11,8 +11,6 @@ function App() {
       <UseState />
       <UseEffect />
       <UseReducer />
-      <CustomHook />
-      {/* <UseRef /> */}
     </div>
   );
 }
